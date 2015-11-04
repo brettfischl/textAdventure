@@ -14,7 +14,7 @@ var DEST_PATH = './dist/';
 
 gulp.task('build', function () {
   return gulp.src('./src/**/*.js')
-    .pipe(concat('main.js'))
+    .pipe(concat('app.js'))
     .pipe(gulp.dest(DEST_PATH))
     .pipe(rename({ extname: '.min.js'}))
     // .pipe(sourcemaps.init({loadMaps: true}))
