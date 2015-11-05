@@ -10,11 +10,11 @@ var del = require('del');
 var chalk = require('chalk');
 
 
-var DEST_PATH = './dist/';
+var DEST_PATH = './public/js/';
 
 gulp.task('build', function () {
   return gulp.src('./src/**/*.js')
-    .pipe(concat('app.js'))
+    .pipe(concat('main.js'))
     .pipe(gulp.dest(DEST_PATH))
     .pipe(rename({ extname: '.min.js'}))
     // .pipe(sourcemaps.init({loadMaps: true}))

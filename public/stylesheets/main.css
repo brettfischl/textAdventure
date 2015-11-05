@@ -1,0 +1,10 @@
+body {
+    font-family: 'VT323', ;
+    background-color: #262626;
+    color: rgb(210, 210, 210);
+}
+
+.prompt {
+    display: inline;
+    float: left;
+}
