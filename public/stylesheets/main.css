@@ -2,9 +2,32 @@ body {
     font-family: 'VT323', ;
     background-color: #262626;
     color: rgb(210, 210, 210);
+    font-size: 14px;
 }
 
 .prompt {
     display: inline;
     float: left;
+    color: gold;
+}
+
+.cmdline {
+    background-color: transparent;
+    border: 0px solid;
+    margin-left: 3px;
+    color: rgb(210, 210, 210);
+    font-family: 'VT323', ;
+}
+
+textarea:focus, input:focus{
+    outline: 0;
+}
+
+*:focus {
+    outline: 0;
+}
+
+p {
+    margin-top: 2px;
+    margin-bottom: 5px;
 }
