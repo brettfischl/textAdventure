@@ -1,3 +1,16 @@
+/*
+todo~ make additional canvas elements: like so...
+ _______________________________
+|                               |
+|     enemy           hero      |
+|    sprite          sprite     |
+|    (hp bar)       (hp bar)    |
+|                               |
+|  [attack]  [spell]  [potion]  |
+|_______________________________|
+
+*/
+
 var ATK_BUTTON = {
     X1: 100, X2: 10, Y1: 150, Y2: 200
 };

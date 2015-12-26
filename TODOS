@@ -1,0 +1,11 @@
+- make the new sections of the canvas in canvas.js (more notes in comments there)
+- set up proper event binding for these ^ events
+- implement proper inheritance for following classes:
+
+    Item
+      |___Weapon
+      |___Utility
+
+    Actor
+      |___Hero
+      |___Monster
