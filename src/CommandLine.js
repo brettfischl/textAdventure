@@ -104,7 +104,7 @@ var CommandLine = (function() {
                     var aCommand = this.value;
                     this.value = '';
 
-                    addHistory(aCommand);
+                    addHistory('> ' + aCommand);
                     output(aCommand)
                     doCommand(aCommand);
                 }
